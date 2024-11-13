@@ -126,6 +126,7 @@ label {
     font-weight: 700;
     color: var(--very-dark-cyan);
     background-color: var(--strong-cyan);
+    opacity: 0.4;
     padding: 9px 0;
     border-radius: 5px;
     cursor: pointer;
@@ -138,19 +139,20 @@ label {
     font-weight: 800;
     font-family: 'Sans Mono', sans-serif;
 }
-#tip-custom-input::-webkit-input-placeholder {
+
+.tip-custom-input::-webkit-input-placeholder {
     font-family: "Space Mono", monospace;
     color: var(--dark-grayish-cyan);
     font-weight: 800;
 }
 
-#tip-custom-input::-moz-placeholder {
+.tip-custom-input::-moz-placeholder {
     font-family: "Space Mono", monospace;
     color: var(--dark-grayish-cyan);
     font-weight: 800;
 }
 
-#tip-custom-input::placeholder {
+.tip-custom-input::placeholder {
     font-family: "Space Mono", monospace;
     color: var(--dark-grayish-cyan);
     font-weight: 800;
